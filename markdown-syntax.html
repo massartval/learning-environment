@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuto Markdown vol. 2</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Syntaxe</th>
+            <th>Effet</th>
+            <th>Remarques</th>
+        </tr>
+        <tr>
+            <td>Heading (h1)</td>
+            <td># [texte]</td>
+            <td>Crée un heading de niveau h1 pour [texte]</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Heading (h2)</td>
+            <td>## [texte]</td>
+            <td>Crée un heading de niveau h2 pour [texte]</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Heading (h3-h6)</td>
+            <td>###-######</td>
+            <td>Crée un heading de niveau h3 à h6</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Heading (h1) (alt)</td>
+            <td>[texte] <br>=======</td>
+            <td>Crée un heading de niveau h1 pour [texte]</td>
+            <td>Une autre méthode pour créer un heading</td>
+        </tr>
+        <tr>
+            <td>Heading (h2) (alt)</td>
+            <td>[texte] <br>-------</td>
+            <td>Crée un heading de niveau h2 pour [texte]</td>
+            <td>Une autre méthode pour créer un heading</td>
+        </tr>
+        <tr>
+            <td>Bold</td>
+            <td>**[texte]**</td>
+            <td>Affiche [texte] en gras</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Bold (alt)</td>
+            <td>__[texte]__</td>
+            <td>Affiche [texte] en gras</td>
+            <td>Une autre méthode</td>
+        </tr>
+        <tr>
+            <td>Italic</td>
+            <td>*[texte]*</td>
+            <td>Affiche [texte] en italique</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Italic (alt)</td>
+            <td>_[texte]_</td>
+            <td>Affiche [texte] en italique</td>
+            <td>Une autre méthode</td>
+        </tr>
+        <tr>
+            <td>Bold & Italic</td>
+            <td>***[texte]***</td>
+            <td>Affiche [texte] en gras et en italique</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Bold & Italic</td>
+            <td>___[texte]___</td>
+            <td>Affiche [texte] en gras et en italique</td>
+            <td>Il est également possible de combiner les deux méthodes</td>
+        </tr>
+        <tr>
+            <td>Links</td>
+            <td>[texte](URL)</td>
+            <td>Affiche [texte] en tant que lien vers URL</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Images</td>
+            <td>![alt](image.jpg "titre")</td>
+            <td>Affiche image.jpg avec un titre et un alt</td>
+            <td>Il est évidemment possible de combiner une image et un lien...</td>
+        </tr>
+    </table>
+    <blockquote>Headings | # times the heading wanted</blockquote>
+    <h1>Heading 1</h1>
+    <hr>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <hr>
+    <blockquote>Bold text | ** text **</blockquote>
+    <p><bold>bold text</bold></p>
+    <blockquote>Italic | * text *</blockquote>
+    <p><em>italic text</em></p>
+    <blockquote>Bold and italic | _** text ** _</blockquote>
+    <p><bold><em>bold and italic text</em></bold></p>
+    <blockquote>Striketrough | ~~ text ~~</blockquote>
+    <p><del>Strikethrough</del></p>
+    <blockquote>Unordered list | * item</blockquote>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3
+            <ul>
+                <li>nested item</li>
+            </ul>
+        </li>
+    </ul>
+    <blockquote>Ordered list</blockquote>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3
+            <ol>
+                <li>Item 3a</li>
+            </ol>
+        </li>
+    </ol>
+    <blockquote>Horizontal rule | ---</blockquote>
+    <hr>
+    <blockquote>Links [ name of link] ( Url of link)</blockquote>
+    <a href="https://www.wikipedia.org/">Wikipedia</a>
+    <blockquote>Images ![name of image](url of image)</blockquote>
+    <img src="https://homepages.cae.wisc.edu/~ece533/images/monarch.png" alt="Monarch butterfly">
+    <hr>
+    <h2>GitHub markdown</h2>
+    <hr>
+    <blockquote>code blocks |</blockquote>
+    <pre>
+        <code>
+            function helloWorld(){
+            let a = "Hello World !";
+            console.log(a);
+            }
+        </code>
+    </pre>
+    <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" alt="Kitty says hello">
+    <a href="index.html">Tuto Markdown vol. 1</a>
+    <a href="README.md">README</a>
+</body>
+</html>
