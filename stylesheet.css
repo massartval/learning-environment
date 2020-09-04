@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    background: linear-gradient(90deg, gray, blue);
+    background-clip: text;
+    color: transparent;
+}
+a:hover {
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    background-clip: text;
+    color: transparent;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: serif;
+    background-image: linear-gradient(180deg, lightblue, lightgray);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+    background-image: linear-gradient(180deg, gray, lightblue);
+    border: solid 1px white;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+img {
+    max-width: 50%;
+    background-image: radial-gradient(white, lightblue);
+    border: solid 1px white;
+    border-radius: 2em;
+}
+
+table {
+    max-width: 80%;
+    min-width: 600px;
+}
+
+p, ul, ol, table, blockquote, pre {
+    background: white;
+    padding: 2em;
+    border-radius: 2em;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+th {
+    background: lightgray;
+    border-radius: 1em;
+    font-family: sans-serif;
+    padding: 1em;
+}

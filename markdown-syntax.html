@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Tuto Markdown vol. 2</title>
 </head>
 <body>
@@ -104,11 +106,11 @@
     <h5>Heading 5</h5>
     <hr>
     <blockquote>Bold text | ** text **</blockquote>
-    <p><bold>bold text</bold></p>
+    <p><b>bold text</b></p>
     <blockquote>Italic | * text *</blockquote>
-    <p><em>italic text</em></p>
+    <p><i>italic text</i></p>
     <blockquote>Bold and italic | _** text ** _</blockquote>
-    <p><bold><em>bold and italic text</em></bold></p>
+    <p><b><i>bold and italic text</i></b></p>
     <blockquote>Striketrough | ~~ text ~~</blockquote>
     <p><del>Strikethrough</del></p>
     <blockquote>Unordered list | * item</blockquote>
@@ -134,7 +136,7 @@
     <blockquote>Horizontal rule | ---</blockquote>
     <hr>
     <blockquote>Links [ name of link] ( Url of link)</blockquote>
-    <a href="https://www.wikipedia.org/">Wikipedia</a>
+    <p><a href="https://www.wikipedia.org/">Wikipedia</a></p>
     <blockquote>Images ![name of image](url of image)</blockquote>
     <img src="https://homepages.cae.wisc.edu/~ece533/images/monarch.png" alt="Monarch butterfly">
     <hr>
@@ -143,10 +145,10 @@
     <blockquote>code blocks |</blockquote>
     <pre>
         <code>
-            function helloWorld(){
-            let a = "Hello World !";
-            console.log(a);
-            }
+function helloWorld(){
+let a = "Hello World !";
+console.log(a);
+}
         </code>
     </pre>
     <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" alt="Kitty says hello">
